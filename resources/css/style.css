@@ -7,6 +7,14 @@ html {
 body {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   background-color: #cccccc;
+  text-align: center;
+}
+
+footer {
+  background-color: dimgray;
+  font-size: 11px;
+  text-align: left;
+  padding: 5px
 }
 
 h1 {
@@ -15,11 +23,38 @@ h1 {
   font-weight: bold;
 }
 
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+font-size: 32px;
+font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+}
+
+
 .P1 {
   background-color: white;
-
+  padding: 15px;
 }
 
 #NYC {
   color: white;
+  font-size: 23px;
+  font-weight: bold;
 }
