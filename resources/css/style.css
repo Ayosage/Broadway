@@ -5,22 +5,30 @@ html {
 }
 
 body {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
-  background-color: #cccccc;
+  width: 100%;
   text-align: center;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+
+}
 }
 
 footer {
   background-color: dimgray;
-  font-size: 11px;
+  font-size: 11px !important;
   text-align: left;
-  padding: 5px
+  color: white;
+  align-items: left;
 }
 
 h1 {
   color: white;
   font-size: 70px;
   font-weight: bold;
+
 }
 
 h2{
@@ -37,24 +45,48 @@ p {
   font-size: 14px;
 }
 
-ul {
+ul, li {
   text-align: center;
   list-style: none;
   font-size: 18px;
+  margin: 0;
+  padding: 0;
+
 }
 
 a {
   color: white;
 }
 
+nav {
+  padding: 5px;
+}
+
+.bimg{
+
+}
 
 .P1 {
   background-color: white;
-  padding: 15px;
+  margin: 0;
+}
+
+#navfoot {
+  list-style: none;
+  margin: 0;
+  display: inline;
 }
 
 #NYC {
   color: white;
   font-size: 23px;
   font-weight: bold;
+
+}
+
+#copy {
+  font-size: 11px !important;
+  text-align: left !important;
+  color: white !important;
+
 }
