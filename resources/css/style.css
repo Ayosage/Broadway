@@ -7,13 +7,17 @@ html {
 body {
   width: 100%;
   text-align: center;
-  background-color: #cccccc;
+}
+
+header {
   background-repeat: no-repeat;
   background-position: top;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
-
-}
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px !important;
 }
 
 footer {
@@ -28,6 +32,7 @@ h1 {
   color: white;
   font-size: 70px;
   font-weight: bold;
+  text-shadow: 2px 2px black;
 
 }
 
@@ -39,6 +44,7 @@ h2{
 h3 {
 font-size: 32px;
 font-weight: bold;
+
 }
 
 p {
@@ -49,26 +55,21 @@ ul, li {
   text-align: center;
   list-style: none;
   font-size: 18px;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
+  display: inline;
+
 
 }
 
 a {
   color: white;
-}
-
-nav {
-  padding: 5px;
-}
-
-.bimg{
-
+  padding-bottom: 10px;
 }
 
 .P1 {
   background-color: white;
-  margin: 0;
+
 }
 
 #navfoot {
@@ -81,7 +82,13 @@ nav {
   color: white;
   font-size: 23px;
   font-weight: bold;
-
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-size: auto;
+  padding: 10px;
+  text-shadow: 2px 2px black;
 }
 
 #copy {
